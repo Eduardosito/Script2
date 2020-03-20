@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilos3.css">
+</head>
+<body>
+
+	<h1 class="titulo">
+		
+		Ejercicio 3	
+
+ 	</h1>
+	<header>
+		<nav class="Navegacion">
+			<ul class="menu">
+				<li><a href="Ejercicio1.html">Ejercicio 1</a></li>
+				<li><a href="Ejercicio2.html">Ejercicio 2</a></li>
+				<li><a href="Ejercicio3.html">Ejercicio 3</a></li>
+				<li><a href="Ejercicio4.html">Ejercicio 4</a></li>
+				<li><a href="index.html">Inicio</a></li>	
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<script src="js/Script3.js"></script>
+	Determinar la cantdad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo qe cuando las horas de trabajo exceden las 40, el resto se consideran oras extras  que estas se pagan al doble de una hora normal cuando no exceden de 8; si las horas extras exceden de 8 se pagan las primeras 8 al doble de lo que se pagan las horas normales y el resto al triple
+
+	osea que a partir de 40 horas son oras exrtra
+	mas de 8 horas extra e pagan al triple, menos de 8 o 8  se pagan al doble
+
+	<form method="get" name="formulario">
+		<p>Las horas ingresadas se considrarán semanalmente</p><br><br>
+		<p>Escribe en cuanto te pagan la hora normal</p><br>
+		<input type="text" name="paga" onkeypress="return Valpag(event)"><br>
+
+		<p>Esribe la cantidad de horas que has trabajado</p><br>
+		<input type="text" name="horas" onkeypress="return Valhor(event)">
+
+		<br><br>
+		<input type="button" name="cal" value="Precia para saber cuanto dinero recibiras por tus horas extra" onclick="calcular2()"><br>
+		<input type="text" name="most" readonly="readonly">
+
+		
+	</form>
+
+</body>
+</html>

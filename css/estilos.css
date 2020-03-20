@@ -1,0 +1,183 @@
+@keyframes camb{
+	from{
+		color: blue;
+
+	}
+	to{
+		color: black;
+	}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+
+}
+body.custom-background{
+	background: -moz-radial-gradient(80% 50%, #00ced1, #fff); 
+	background: -webkit-radial-gradient(50% 50%, #00ced1, #fff); 
+	background: -o-radial-gradient(50% 80%, #00ced1, #fff); 
+	background: -ms-radial-gradient(50% 50%, #00ced1, #fff); 
+	background: radial-gradient(50% 50%, #00ced1, #fff);
+}
+h1>img{
+	padding-top: 10px;
+	size: 100px;
+	width:30; 
+	height:20;
+}
+h1{
+	font-size: 80px;
+	padding: 40px;
+	padding-top: 10px;
+	text-align: center ;
+	animation-name: camb;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	color: #BFD6E9;
+	font-family: 'Open Sans';
+}
+body{
+	background: beige;
+}
+.Navegacion{
+
+	width: 1300px;
+	margin: 80px auto;
+	background: #fff;
+
+}
+.Navegacion ul{
+	list-style: none;
+
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+.menu >li >a{
+
+	display: block;
+	padding: 15px 70px;
+	color: #0D1620;
+	font-family :'Times New Roman';
+	text-decoration: none;
+	
+}
+.menu li a:hover{
+	color: #6D4C44;
+	transition: all .4s;
+}
+
+
+
+/*intento de menu desplegable*/
+.submenu{
+	position: absolute;
+	background: #BF8475;
+	width: 100%;
+	display: none;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: black;
+	font-family :'Times New Roman';
+	text-decoration: none;  
+}
+.menu li:hover .submenu{
+	display: block;
+}
+
+
+
+
+
+
+.submenu2{
+	position: absolute;
+	background: #BF8475;
+	width: 100%;
+	display: none;
+}
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: black;
+	font-family :'Times New Roman';
+	text-decoration: none;  
+}
+.menu li:hover .submenu2{
+	display: block;
+}
+
+
+
+.Contenido {
+
+
+	border-image: 2px solid rgb(196, 178, 167);
+	width: 1790px;
+	background-color: #34597C;
+	align-content: center;
+	color:#F8F8F9;
+	padding: 500px 100px;
+	text-align: center;
+	border:4px solid rgb(191, 132, 117);
+	margin: 3rem;
+	border-radius: 10px;
+	padding: 1rem;
+
+
+}
+.Text1{
+	width: 1790px;
+	background-color: #0000;
+	align-content: center;
+	color:#F8F8F9;
+	padding: 500px 100px;
+	text-align: center;
+	border:4px solid rgb(191, 132, 117);
+	margin: 3rem;
+	font-size: 20px;
+
+	border-radius: 10px;
+	padding: 1rem;
+
+}
+.Imagen{
+	align-items: top;
+	padding-top: 23px;
+	width:90%;
+	display: inline-block;
+	height: 200px;
+	font-size: 44px;
+	background-color: #34597C;
+	color: white;
+
+	border-radius: 10px;
+	padding: 1rem;
+	text-align: center;
+
+}
+
+.Services{
+
+	font-size: 30px;
+	font-size-adjust: 44vw;		
+    text-align: center;
+	color: white;
+}
+.Services a{
+	text-decoration: none;
+	color:white;
+
+}
+.Conta{
+	background: black;
+	color:white;
+
+}

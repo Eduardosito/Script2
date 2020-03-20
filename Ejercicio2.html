@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilos2.css">
+</head>
+<body>
+
+	<h1 class="titulo">
+		
+		Ejercicio 2
+
+ 	</h1>
+	<header>
+		<nav class="Navegacion">
+			<ul class="menu">
+				<li><a href="Ejercicio1.html">Ejercicio 1</a></li>
+				<li><a href="Ejercicio2.html">Ejercicio 2</a></li>
+				<li><a href="Ejercicio3.html">Ejercicio 3</a></li>
+				<li><a href="Ejercicio4.html">Ejercicio 4</a></li>
+				<li><a href="index.html">Inicio</a></li>	
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<script src="js/Script2.js"></script>
+	leer tres numeros diferentes e imprimir el mayor de los tres.
+	<form method="get" name="formulario">
+		<p>Escribe el primero de los numeros</p><br>
+
+		<input type="text" name="primero" onkeypress="return Valpri(event)"><br>
+		<p>Escribe el segundo de los numeros</p><br>
+
+		<input type="text" name="segundo" onkeypress="return Valseg(event)" ><br>
+		<p>Escribe el tercero de los numeros</p><br>
+		<input type="text" name="tercero" onkeypress="return Valter(event)">
+		<br>
+		<input type="button" name="calcul" value="Presion para saber el amyor de los numeros" onclick="calcular()">
+		<br>
+		<input type="text" name="mostrar" readonly="readonly">
+		
+	</form>
+	
+	
+
+</body>
+</html>

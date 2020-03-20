@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Este es el ejercisio numero 4 </title>
+	<link rel="stylesheet" type="text/css" href="css/estilos4.css">
+
+</head>
+<body>
+
+	<h1 class="titulo">
+		
+		Ejercicio 4
+
+ 	</h1>
+	<header>
+		<nav class="Navegacion">
+			<ul class="menu">
+				<li><a href="Ejercicio1.html">Ejercicio 1</a></li>
+				<li><a href="Ejercicio2.html">Ejercicio 2</a></li>
+				<li><a href="Ejercicio3.html">Ejercicio 3</a></li>
+				<li><a href="Ejercicio4.html">Ejercicio 4</a></li>
+				<li><a href="index.html">Inicio</a></li>	
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<script src="js/Script4.js"></script>
+	<p>
+		Calcular la utiliad que un trabajador recibe en el reparo anual de utilidades si este se le asigna como un porcentaje de eu salario mensal que depende de su antiguedad en el empresa de acuerdo con lo iguiente:
+		<br>
+		Menos de un año----------------------5% del salario<br>
+		1 año o mas y menos de 2 años--------7% del salario<br>
+		2 años o mas y menos de 5 años-------10% del salario<br>
+		5 años o mas y menos de 10 años------15% del salario<br>
+		10 años o mas------------------------20% del salario<br>
+		<br>
+		<form method="get" name="formulario">
+			<br>Escribe los años que llebas en la empresa <br>
+			<input type="text" name="años" onkeypress="return Valaño(event)">
+			<br>
+			Escribe los meses que llebas en la empresa <br>
+			<input type="text" name="meses" onkeypress="return Valmes(event)">
+			<br>
+			Escribe de cuanto es tu salario
+			<br>
+			<input type="text" name="salario" onkeypress="return Valsal(event)">
+			<br>
+
+			<input type="button" name="cac" value="Presiona para saber cuanto es el porcentaje de tu utilidad" onclick="validar()">
+			<br>
+			<input type="text" name="most" readonly="readonly">	
+
+		</form>
+
+		
+	</p>
+
+</body>
+</html>
